@@ -1,0 +1,30 @@
+.TH MJOLNIR 1 "May 2025" "mjolnir 1.0" "User Commands"
+.SH NAME
+mjolnir \- Super simple TCP port scanner
+.SH DESCRIPTION
+.B Mjolnir
+is a lightweight TCP port scanner that scans a given IP address over a specified range of ports. Additional features will be added soon
+
+.SH OPTIONS
+.TP
+.B \-ip <address>
+Target IPv4 address to scan.
+.TP
+.B \-pR <Port Range>
+Port range to scan, specified as two integers separated by a dash, e.g "-pR 1-1000".
+.TP
+.B \-h
+Show usage information.
+.TP
+.B \-o <output filename>
+File output after scanning
+.SH EXAMPLES
+Scan ports 22 through 80 on IP 192.168.1.1:
+.BR
+.B mjolnir \-ip 192.168.1.1 \-pR 22\-80
+
+.SH AUTHOR
+Even Garli.
+
+.SH COPYRIGHT
+MIT License. Use freely.

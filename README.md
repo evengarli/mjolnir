@@ -54,7 +54,7 @@ Scanning 192.168.1.1 from port 1 to port 1000
 
 ## Important
 
-Only use this tool on networks and systems you own or have permission to test. Unauthorized scanning may be illegal.
+Only use this tool on networks and systems you own or have permission to test. Unauthorized scanning is illegal.
 
 ## License
 

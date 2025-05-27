@@ -7,6 +7,7 @@ A simple TCP port scanner written in C++.
 Mjolnir scans for open ports on a target IP address or hostname. It can scan custom port ranges or quickly check common ports.
 
 ## Installation
+Requires Linux.
 
 ```bash
 git clone https://github.com/evengarli/mjolnir.git

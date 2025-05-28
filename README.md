@@ -21,17 +21,17 @@ chmod +x install.sh
 
 **Scan a port range:**
 ```bash
-./mjolnir -ip 192.168.1.1 -pR 1-1000
+mjolnir -ip 192.168.1.1 -pR 1-1000
 ```
 
 **Fast scan (common ports only):**
 ```bash
-./mjolnir -ip google.com -f
+mjolnir -ip google.com -f
 ```
 
 **Save results to a file:**
 ```bash
-./mjolnir -ip 192.168.1.1 -pR 80-443 -o results
+mjolnir -ip 192.168.1.1 -pR 80-443 -o results
 ```
 
 ### Options
